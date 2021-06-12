@@ -76,6 +76,9 @@ public class MockRunner {
 
 		System.out.println("---------");
 
+		Room room = injector.getInstance(Room.class);
+		room.run();
+
 		A a;
 		a = new A();
 		a = injector.getInstance(A.class);

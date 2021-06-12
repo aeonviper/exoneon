@@ -12,7 +12,6 @@ public class MyModule extends AbstractModule {
 		bind(B.class).toInstance(new B("Sheep"));
 
 		MyInterceptor myInterceptor = new MyInterceptor();
-		requestInjection(myInterceptor);
 		bindInterceptor(any(), annotatedWith(Interceptional.class), myInterceptor);
 	}
 }
