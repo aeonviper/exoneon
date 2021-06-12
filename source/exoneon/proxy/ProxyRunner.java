@@ -17,7 +17,7 @@ public class ProxyRunner {
 		System.out.println("Answer for John: " + answer);
 		answer = celebrity.introduction("David", "How you doin");
 		System.out.println("Answer for David: " + answer);
-		
+
 		System.out.println(celebrity.findDiane());
 		System.out.println(celebrity.findEmma());
 
