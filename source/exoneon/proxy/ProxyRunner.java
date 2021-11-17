@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class ProxyRunner {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new ProxyRunner().run();
 	}
 

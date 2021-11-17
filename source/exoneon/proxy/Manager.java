@@ -6,10 +6,10 @@ import java.lang.reflect.Method;
 public class Manager implements InvocationHandler {
 
 	@Override
-	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+	public Object invoke(Object proxy, Method method, Object[] array) throws Throwable {
 		if ("introduction".equals(method.getName())) {
-			if (args.length == 2) {
-				if (args[0].equals("David")) {
+			if (array.length == 2) {
+				if (array[0].equals("David")) {
 					return new DianeLane().say();
 				} else {
 					return new EmmaWatson().say();

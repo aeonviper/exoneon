@@ -10,7 +10,7 @@ import java.util.Vector;
 
 public class CollectionRunner {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new CollectionRunner().run();
 	}
 

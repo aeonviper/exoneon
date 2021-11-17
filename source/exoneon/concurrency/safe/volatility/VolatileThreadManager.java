@@ -7,7 +7,7 @@ import java.util.concurrent.FutureTask;
 
 class VolatileThreadManager {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new VolatileThreadManager().run();
 	}
 

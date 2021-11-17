@@ -2,7 +2,7 @@ package exoneon.concurrency.management;
 
 public class FireForgetManager {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new FireForgetManager().run();
 	}
 

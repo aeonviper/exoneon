@@ -9,7 +9,7 @@ import com.google.gson.reflect.TypeToken;
 
 public class BeanUtilityRunner {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] array) throws Exception {
 		new BeanUtilityRunner().run();
 	}
 
@@ -26,6 +26,10 @@ public class BeanUtilityRunner {
 		person.mainAddress.name = "Bandung";
 		System.out.println(BeanUtils.getProperty(person, "mainAddress.name"));
 		// person.getMainAddress().getName();
+		person.map.put("Key","Some value");
+		System.out.println(BeanUtils.getProperty(person, "map(Key)"));
+		System.out.println(BeanUtils.getProperty(person, "map.Key"));
+		// person.getMap().get("Key");
 
 		Person user = new Person();
 		BeanUtils.copyProperties(user, person);

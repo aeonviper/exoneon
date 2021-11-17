@@ -9,7 +9,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 class QueueThreadManager {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] array) throws Exception {
 		new QueueThreadManager().run();
 	}
 

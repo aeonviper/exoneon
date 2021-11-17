@@ -7,7 +7,7 @@ import java.lang.reflect.Parameter;
 
 public class AnnotationScanner {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		scan(MusicIndustry.class, "Gwen Stefani");
 	}
 

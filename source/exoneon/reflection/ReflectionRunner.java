@@ -8,7 +8,7 @@ import exoneon.annotation.MusicIndustry;
 
 public class ReflectionRunner {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new ReflectionRunner().run(MusicIndustry.class);
 	}
 

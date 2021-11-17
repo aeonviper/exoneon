@@ -15,7 +15,7 @@ import com.google.inject.Injector;
 
 public class MockRunner {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new MockRunner().run();
 	}
 

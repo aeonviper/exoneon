@@ -6,7 +6,7 @@ import com.google.inject.Injector;
 
 public class InjectionRunner {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new InjectionRunner().run();
 	}
 
@@ -23,6 +23,11 @@ public class InjectionRunner {
 		
 		Room room = injector.getInstance(Room.class);
 		room.run();
+		
+		room = injector.getInstance(Room.class);
+		room.run();
+		
+		room = new Room();
 
 		A a;
 		a = new A();

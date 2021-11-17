@@ -5,7 +5,7 @@ import java.util.concurrent.FutureTask;
 
 class LatchThreadManager {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new LatchThreadManager().run();
 	}
 

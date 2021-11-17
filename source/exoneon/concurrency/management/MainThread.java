@@ -2,7 +2,7 @@ package exoneon.concurrency.management;
 
 public class MainThread {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		System.out.println(Thread.currentThread().getId() + " " + Thread.currentThread().getName() + "|" + Thread.currentThread());
 		new MainThread().run();
 	}

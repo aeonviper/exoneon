@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class HotDeployRunner {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new HotDeployRunner().run();
 	}
 

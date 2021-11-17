@@ -6,7 +6,7 @@ import com.google.inject.Injector;
 
 public class AspectRunner {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new AspectRunner().run();
 	}
 

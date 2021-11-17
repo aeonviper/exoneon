@@ -5,7 +5,7 @@ import java.util.concurrent.Semaphore;
 
 class SemaphoreThreadManager {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new SemaphoreThreadManager().run();
 	}
 

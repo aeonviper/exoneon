@@ -13,13 +13,13 @@ public class MapProxy implements InvocationHandler {
 	int put = 0;
 
 	@Override
-	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+	public Object invoke(Object proxy, Method method, Object[] array) throws Throwable {
 		if ("put".contentEquals(method.getName())) {
 			put++;
-			map.put(args[0], args[1]);
+			map.put(array[0], array[1]);
 		} else if ("get".contentEquals(method.getName())) {
 			get++;
-			return map.get(args[0]);
+			return map.get(array[0]);
 		} else if ("size".contentEquals(method.getName())) {
 			System.out.println("Statistic:");
 			System.out.println("Get: " + get);

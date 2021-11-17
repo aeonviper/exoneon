@@ -5,7 +5,7 @@ import java.util.concurrent.FutureTask;
 
 class BarrierThreadManager {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new BarrierThreadManager().run();
 	}
 

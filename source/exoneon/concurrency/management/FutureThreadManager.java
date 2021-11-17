@@ -5,7 +5,7 @@ import java.util.concurrent.FutureTask;
 
 public class FutureThreadManager {
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new FutureThreadManager().run();
 	}
 

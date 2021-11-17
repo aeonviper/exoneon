@@ -1,13 +1,16 @@
 package exoneon.bean.utility;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Person {
 
 	protected Long id;
 	protected String name;
 	protected List<Address> addressList = new ArrayList<>();
+	protected Map<String, Object> map = new HashMap<>();
 	protected Address mainAddress = new Address();
 
 	public Long getId() {
@@ -40,6 +43,14 @@ public class Person {
 
 	public void setMainAddress(Address mainAddress) {
 		this.mainAddress = mainAddress;
+	}
+
+	public Map<String, Object> getMap() {
+		return map;
+	}
+
+	public void setMap(Map<String, Object> map) {
+		this.map = map;
 	}
 
 }

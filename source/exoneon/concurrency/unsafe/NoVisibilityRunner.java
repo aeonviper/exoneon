@@ -13,7 +13,7 @@ public class NoVisibilityRunner {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] array) {
 		new ReaderThread().start();
 		number = 42;
 		ready = true;
